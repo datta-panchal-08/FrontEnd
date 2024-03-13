@@ -1,0 +1,25 @@
+   /* 
+       1.display: inline;  
+       agar hum display hum kisi bhi element ko display inline dete hai to hum uski width aur height 
+       nahi badha sakte..
+       
+       2.block elements apne row me pura space le lete hai aur o apne agal bgal kisi bhi element ko ane nahi
+       dete...
+    */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+h1{
+ 
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}

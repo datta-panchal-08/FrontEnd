@@ -1,0 +1,36 @@
+ /* 
+    1.em depend karta hai us element ke font size par , aur ye agar parent ko dete hai to 
+     children par bhi apply hota hai.... 
+    
+    2.rem depend karta hai root element or html ke font size par aur agar font size 16 px hai 
+    aur hamne width 2rem aur height 2rem di hai to ye  32 by 32 ka  banega....
+
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#test{
+    /* % humesha parent se value leta hai */
+     width: 100%;
+     height: 100%;
+     background-color: red;
+}
+#parent{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    overflow: hidden;
+}
+#child{
+       /* vw and vh humesha screen se value lete hai */
+       width: 100vw;
+       height: 100vh;
+       background-color: green;
+
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Gilroy;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        p{
+            position: relative;
+            color:black;
+            width: fit-content;
+            color: white;
+            background-color: black;
+            
+        }
+        p::before{
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 3px;
+            top: 50%;
+
+            background-color: red;
+        }
+        p::first-line{
+            color: yellow;
+        }
+        p::first-letter{
+            color: red;
+            font-size: 24px;
+        }
+        p::selection{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam, accusantium! Consequatur expedita molestias distinctio sequi omnis consectetur commodi libero optio? Sapiente dolor, quas similique maxime molestiae quibusdam non sint at.
+
+    </p>
+</body>
+</html>

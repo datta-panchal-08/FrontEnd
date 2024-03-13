@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+}
+.container{
+    padding: 10vw 25vw;
+}
+.container input{
+    width: 100%;
+    padding: 12px 22px;
+    font-weight: 500;
+    font-size: 25px;
+    outline-color: royalblue;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+.img{
+    width: 7vw;
+    height: 7vw;
+    border: solid 2px #dadada;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+}
+.people{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
