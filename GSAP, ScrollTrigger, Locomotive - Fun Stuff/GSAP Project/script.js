@@ -21,3 +21,9 @@ tl.from("img",{
     rotate:45,
     stagger:0.5
 });
+tl.from("#footer h3",{
+    y:100,
+    duration:0.3,
+    opacity:0,
+    stagger:0.3
+});
