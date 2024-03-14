@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#page1{
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+#page2{
+    width: 100%;
+    height: 100%;
+    background-color:red;
+}
+#page2 h1{
+    font-size: 37vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+#page3{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+
