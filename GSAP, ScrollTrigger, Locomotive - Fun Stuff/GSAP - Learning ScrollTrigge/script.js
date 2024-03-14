@@ -16,6 +16,5 @@ gsap.from("#page2 #circle",{
         start:"top 60%",
         end:"top 30%",
         scrub:2
-
     }
 });
