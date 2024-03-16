@@ -1,9 +1,11 @@
-import React, { useState } from 'react'
-import SetUseStateIntermediate from './Components/SetUseStateIntermediate'
+import UseStateAdvance from './Components/UseStateAdvance'
+// import SetUseStateIntermediate from './Components/SetUseStateIntermediate'
 
 const App = () => {
   return (
-     <SetUseStateIntermediate/>
+    //  <SetUseStateIntermediate/>
+    <UseStateAdvance/>
+    
   )
 }
 
