@@ -1,9 +1,10 @@
 import React from 'react'
-import Card from './Components/Card'
+// import Card from './Components/Card'
+import Song from './Components/Song'
 
 const App = () => {
   return (
-    <Card/>
+         <Song/>
   )
 }
 
